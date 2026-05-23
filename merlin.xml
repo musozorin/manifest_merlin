@@ -8,7 +8,7 @@
     
     <project path="kernel/xiaomi/mt6768" name="MiCode/Xiaomi_Kernel_OpenSource" remote="github-zorin" revision="merlin-r-oss" />
     
-    <project path="vendor/xiaomi/merlin" name="Redmi-MT6768/android_vendor_xiaomi_merlin" remote="github-zorin" revision="lineage-21" />
+    <project path="vendor/xiaomi/merlin" name="Redmi-MT6768/android_vendor_xiaomi_merlin" remote="github-zorin" revision="eleven" />
 
     <project path="hardware/mediatek" name="LineageOS/android_hardware_mediatek" remote="github-zorin" revision="lineage-21" />
     <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github-zorin" revision="lineage-21" />
