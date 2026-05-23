@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <remote name="github-zorin" fetch="https://github.com" />
+    <remote name="github-zorin" fetch="https://github.com" clone-depth="1" />
     <remote name="lineage" fetch="https://github.com/LineageOS" clone-depth="1" />
+    <remote name="muppets" fetch="https://github.com/TheMuppets" clone-depth="1" />
 
-    <project path="device/xiaomi/merlinx" name="musozorin/android_device_xiaomi_merlinx" remote="github-zorin" revision="lineage-21" />
+    <project path="device/xiaomi/merlinx" name="LineageOS/android_device_xiaomi_merlinx" remote="github-zorin" revision="lineage-20" />
     
-    <project path="kernel/xiaomi/mt6768" name="MiCode/Xiaomi_Kernel_OpenSource" remote="github-zorin" revision="merlin-r-oss" />
+    <project path="kernel/xiaomi/mt6768" name="LineageOS/android_kernel_xiaomi_mt6768" remote="github-zorin" revision="lineage-20" />
     
-    <project path="vendor/xiaomi/merlin" name="Redmi-MT6768/android_vendor_xiaomi_merlin" remote="github-zorin" revision="eleven" />
+    <project path="vendor/xiaomi/merlinx" name="proprietary_vendor_xiaomi_merlinx" remote="muppets" revision="lineage-20" />
 
-    <project path="hardware/mediatek" name="LineageOS/android_hardware_mediatek" remote="github-zorin" revision="lineage-21" />
-    <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github-zorin" revision="lineage-21" />
+    <project path="hardware/mediatek" name="LineageOS/android_hardware_mediatek" remote="lineage" revision="lineage-20" />
+    <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="lineage" revision="lineage-20" />
 
 </manifest>
