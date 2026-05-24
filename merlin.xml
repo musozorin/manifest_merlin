@@ -6,12 +6,14 @@
     <remote name="muppets" fetch="https://github.com/TheMuppets" clone-depth="1" />
 
     <project path="device/xiaomi/merlinx" name="musozorin/android_device_xiaomi_merlinx_ok" remote="github-zorin" revision="lineage-21" />
+    <project path="device/xiaomi/mt6768-common" name="LineageOS/android_device_xiaomi_mt6768-common" remote="lineage" revision="lineage-21" />
     
     <project path="kernel/xiaomi/mt6768" name="merlinx-project/android_kernel_xiaomi_merlinx" remote="github-zorin" revision="lineage-21" />
     
     <project path="vendor/xiaomi/merlinx" name="proprietary_vendor_xiaomi_merlinx" remote="muppets" revision="lineage-21" />
+    <project path="vendor/xiaomi/mt6768-common" name="proprietary_vendor_xiaomi_mt6768-common" remote="muppets" revision="lineage-21" />
 
-    <project path="hardware/mediatek" name="LineageOS/android_hardware_mediatek" remote="lineage" revision="lineage-21" />
-    <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="lineage" revision="lineage-21" />
+    <project path="hardware/mediatek" name="android_hardware_mediatek" remote="lineage" revision="lineage-21" />
+    <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lineage" revision="lineage-21" />
 
 </manifest>
